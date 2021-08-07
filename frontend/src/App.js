@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
-import { FetchData } from "./utils/datafetch";
+import MainComponent from "./components/MainComponent";
 function App() {
-  const getdata = async () => {
-    let data = await FetchData();
-    console.log(data.fetchedData);
-  };
-  useEffect(() => {
-    getdata();
-  }, []);
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MainComponent />
+    </div>
+  );
 }
 
 export default App;
