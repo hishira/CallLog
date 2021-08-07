@@ -86,7 +86,6 @@ class PhoneBilling {
       ...outcomingcalls.slice(0, 2).map((call) => call.numbertocall),
       ...generator.generatePhoneNumbers(3),
     ];
-    console.log(smsnumbers);
     let smsdates = generator.generateDatesFromLastMonth(smsnumbers.length);
     let smss = [];
     for (let i = 0; i < smsnumbers.length; i++) {
