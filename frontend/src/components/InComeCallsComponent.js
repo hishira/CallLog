@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Calls,
   Text,
@@ -51,10 +51,10 @@ export default function InComeCallsComponent({ calls, infoString, titleText }) {
       <SortWrapper>
         <SortLabel>Sort by</SortLabel>
         <SortSelect onChange={selecehandle}>
-          <SortOption value={1}>By date asc</SortOption>
-          <SortOption value={2}>By date desc</SortOption>
-          <SortOption value={3}>By time asc</SortOption>
-          <SortOption value={4}>By time desc</SortOption>
+          <SortOption value={1}>By date ascending</SortOption>
+          <SortOption value={2}>By date descending</SortOption>
+          <SortOption value={3}>By time ascending</SortOption>
+          <SortOption value={4}>By time descending</SortOption>
         </SortSelect>
       </SortWrapper>
       <CallsWrapper>

@@ -19,9 +19,9 @@ class PhoneBilling {
         ownernumber - owner number
         incomecall - array of incomming call
         outgoingcall - array of outgoing call
-        smsfrom - sms from somebody
-        smsto - sms to somebody
-        datausage - Date used by user in kb,mb or GB
+        smsfrom - sms recived by owner
+        smsto - sms send by owner
+        datausage - Date used by user in kB,MB or GB
         limit - User limit on data
 
     */

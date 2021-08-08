@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 const MINFONTSIE = 1.2;
 const MEDIUMFONTSIE = 1.4;
