@@ -5,6 +5,15 @@
 
 Api posiada 1 endpoint umożliwiający generowanie losowych danych dla losowego numeru telefonu z ostatniego miesiąca.<br/>
 Dane dzielimy na połączenia przychodzące, wychodzące, SMSy oraz dane zużyte przez użytkownika.
+Dane dzielimy na klasy: <br/>
+IncomingCall - połączenie przychodzące <br/>
+OutGoingCall - połączenia wychodzące <br/>
+SMSTo - smsy wychodzące <br/>
+SMSFrom - smsy przychodzące <br/>
+LimitToUse - limit użytkownika <br/>
+DataUsage - dane urzyte przez uzytkownika <br/>
+PhoneBilling - generowanie powyższych danych <br/>
+
 ## Frontend
  - React + styled-components
 
@@ -22,12 +31,15 @@ cd backend; npm start
 cd frontend; npm start
 ```
 
-## Screeny
+# Screeny
 
-Desktop
+## Desktop
+
 <img src="frontend/public/desktop_1.PNG"/>
 <img src="frontend/public/desktop_2.PNG"/>
-Mobile
+
+## Mobile
+
 <img src="frontend/public/mobile_1.PNG"/>
 <img src="frontend/public/mobile_2.PNG"/>
 <img src="frontend/public/mobile_3.PNG"/>
